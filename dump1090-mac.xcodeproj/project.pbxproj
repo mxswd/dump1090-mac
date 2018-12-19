@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5971588D21C9E78200F3F098 /* dump1090.c in Sources */ = {isa = PBXBuildFile; fileRef = 5971588C21C9E78200F3F098 /* dump1090.c */; };
+		5971589021C9E79800F3F098 /* anet.c in Sources */ = {isa = PBXBuildFile; fileRef = 5971588E21C9E79700F3F098 /* anet.c */; };
+		5971589521C9E7AB00F3F098 /* mode_ac.c in Sources */ = {isa = PBXBuildFile; fileRef = 5971589121C9E7AA00F3F098 /* mode_ac.c */; };
+		5971589621C9E7AB00F3F098 /* interactive.c in Sources */ = {isa = PBXBuildFile; fileRef = 5971589221C9E7AA00F3F098 /* interactive.c */; };
+		5971589721C9E7AB00F3F098 /* mode_s.c in Sources */ = {isa = PBXBuildFile; fileRef = 5971589321C9E7AB00F3F098 /* mode_s.c */; };
+		5971589821C9E7AB00F3F098 /* net_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 5971589421C9E7AB00F3F098 /* net_io.c */; };
+		5971589D21C9E87A00F3F098 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5971589C21C9E87A00F3F098 /* IOKit.framework */; };
+		5971589F21C9E88000F3F098 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5971589E21C9E88000F3F098 /* Foundation.framework */; };
+		597158A121C9EA5100F3F098 /* librtlsdr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5971588721C9E58A00F3F098 /* librtlsdr.a */; };
+		597158A221C9EA5100F3F098 /* libusb-1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5971588821C9E58A00F3F098 /* libusb-1.0.a */; };
+		597158A521C9EAF800F3F098 /* extra.c in Sources */ = {isa = PBXBuildFile; fileRef = 597158A421C9EAF800F3F098 /* extra.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5971587921C9E07F00F3F098 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		596946B021CA47EE00D42096 /* global.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = global.xcconfig; path = ../global.xcconfig; sourceTree = "<group>"; };
+		5971587B21C9E07F00F3F098 /* dump1090-mac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "dump1090-mac"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5971588521C9E0D600F3F098 /* entitlements.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = entitlements.entitlements; sourceTree = "<group>"; };
+		5971588621C9E11600F3F098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5971588721C9E58A00F3F098 /* librtlsdr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtlsdr.a; sourceTree = "<group>"; };
+		5971588821C9E58A00F3F098 /* libusb-1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libusb-1.0.a"; sourceTree = "<group>"; };
+		5971588B21C9E59700F3F098 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		5971588C21C9E78200F3F098 /* dump1090.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dump1090.c; sourceTree = "<group>"; };
+		5971588E21C9E79700F3F098 /* anet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = anet.c; sourceTree = "<group>"; };
+		5971588F21C9E79800F3F098 /* anet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = anet.h; sourceTree = "<group>"; };
+		5971589121C9E7AA00F3F098 /* mode_ac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mode_ac.c; sourceTree = "<group>"; };
+		5971589221C9E7AA00F3F098 /* interactive.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = interactive.c; sourceTree = "<group>"; };
+		5971589321C9E7AB00F3F098 /* mode_s.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mode_s.c; sourceTree = "<group>"; };
+		5971589421C9E7AB00F3F098 /* net_io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = net_io.c; sourceTree = "<group>"; };
+		5971589921C9E7C300F3F098 /* dump1090.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dump1090.h; sourceTree = "<group>"; };
+		5971589A21C9E7D400F3F098 /* coaa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = coaa.h; sourceTree = "<group>"; };
+		5971589C21C9E87A00F3F098 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		5971589E21C9E88000F3F098 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		597158A321C9EAF800F3F098 /* extra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = extra.h; sourceTree = "<group>"; };
+		597158A421C9EAF800F3F098 /* extra.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = extra.c; sourceTree = "<group>"; };
+		597158A721C9EF1100F3F098 /* libusb-copying.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "libusb-copying.txt"; sourceTree = "<group>"; };
+		597158A821C9EF5000F3F098 /* rtl-sdr-copying.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "rtl-sdr-copying.txt"; sourceTree = "<group>"; };
+		597158A921C9EFC400F3F098 /* dump1090-license.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "dump1090-license.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5971587821C9E07F00F3F098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597158A121C9EA5100F3F098 /* librtlsdr.a in Frameworks */,
+				597158A221C9EA5100F3F098 /* libusb-1.0.a in Frameworks */,
+				5971589F21C9E88000F3F098 /* Foundation.framework in Frameworks */,
+				5971589D21C9E87A00F3F098 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5971587221C9E07F00F3F098 = {
+			isa = PBXGroup;
+			children = (
+				596946B021CA47EE00D42096 /* global.xcconfig */,
+				597158A021C9EA1000F3F098 /* Junk */,
+				5971587D21C9E07F00F3F098 /* dump1090-mac */,
+				5971587C21C9E07F00F3F098 /* Products */,
+				5971589B21C9E87900F3F098 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5971587C21C9E07F00F3F098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5971587B21C9E07F00F3F098 /* dump1090-mac */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5971587D21C9E07F00F3F098 /* dump1090-mac */ = {
+			isa = PBXGroup;
+			children = (
+				597158A621C9EEF600F3F098 /* Licenses */,
+				5971588C21C9E78200F3F098 /* dump1090.c */,
+				597158A321C9EAF800F3F098 /* extra.h */,
+				597158A421C9EAF800F3F098 /* extra.c */,
+				5971588F21C9E79800F3F098 /* anet.h */,
+				5971588E21C9E79700F3F098 /* anet.c */,
+				5971589921C9E7C300F3F098 /* dump1090.h */,
+				5971589221C9E7AA00F3F098 /* interactive.c */,
+				5971589A21C9E7D400F3F098 /* coaa.h */,
+				5971589121C9E7AA00F3F098 /* mode_ac.c */,
+				5971589321C9E7AB00F3F098 /* mode_s.c */,
+				5971589421C9E7AB00F3F098 /* net_io.c */,
+				5971588B21C9E59700F3F098 /* include */,
+			);
+			path = "dump1090-mac";
+			sourceTree = "<group>";
+		};
+		5971589B21C9E87900F3F098 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5971588721C9E58A00F3F098 /* librtlsdr.a */,
+				5971588821C9E58A00F3F098 /* libusb-1.0.a */,
+				5971589E21C9E88000F3F098 /* Foundation.framework */,
+				5971589C21C9E87A00F3F098 /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		597158A021C9EA1000F3F098 /* Junk */ = {
+			isa = PBXGroup;
+			children = (
+				5971588521C9E0D600F3F098 /* entitlements.entitlements */,
+				5971588621C9E11600F3F098 /* Info.plist */,
+			);
+			path = Junk;
+			sourceTree = "<group>";
+		};
+		597158A621C9EEF600F3F098 /* Licenses */ = {
+			isa = PBXGroup;
+			children = (
+				597158A721C9EF1100F3F098 /* libusb-copying.txt */,
+				597158A821C9EF5000F3F098 /* rtl-sdr-copying.txt */,
+				597158A921C9EFC400F3F098 /* dump1090-license.txt */,
+			);
+			path = Licenses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5971587A21C9E07F00F3F098 /* dump1090-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5971588221C9E07F00F3F098 /* Build configuration list for PBXNativeTarget "dump1090-mac" */;
+			buildPhases = (
+				5971587721C9E07F00F3F098 /* Sources */,
+				5971587821C9E07F00F3F098 /* Frameworks */,
+				5971587921C9E07F00F3F098 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dump1090-mac";
+			productName = "dump1090-mac";
+			productReference = 5971587B21C9E07F00F3F098 /* dump1090-mac */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5971587321C9E07F00F3F098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Maxwell Swadling";
+				TargetAttributes = {
+					5971587A21C9E07F00F3F098 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5971587621C9E07F00F3F098 /* Build configuration list for PBXProject "dump1090-mac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5971587221C9E07F00F3F098;
+			productRefGroup = 5971587C21C9E07F00F3F098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5971587A21C9E07F00F3F098 /* dump1090-mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5971587721C9E07F00F3F098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5971589721C9E7AB00F3F098 /* mode_s.c in Sources */,
+				5971589821C9E7AB00F3F098 /* net_io.c in Sources */,
+				5971589021C9E79800F3F098 /* anet.c in Sources */,
+				597158A521C9EAF800F3F098 /* extra.c in Sources */,
+				5971589621C9E7AB00F3F098 /* interactive.c in Sources */,
+				5971589521C9E7AB00F3F098 /* mode_ac.c in Sources */,
+				5971588D21C9E78200F3F098 /* dump1090.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5971588021C9E07F00F3F098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 596946B021CA47EE00D42096 /* global.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5971588121C9E07F00F3F098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 596946B021CA47EE00D42096 /* global.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5971588321C9E07F00F3F098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Junk/entitlements.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "$(TEAMID)";
+				INFOPLIST_FILE = "$(SRCROOT)/Junk/Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dump1090-mac",
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(COMPANY_NAMESPACE).dump1090-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5971588421C9E07F00F3F098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Junk/entitlements.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "$(TEAMID)";
+				INFOPLIST_FILE = "$(SRCROOT)/Junk/Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dump1090-mac",
+					"$(PROJECT_DIR)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(COMPANY_NAMESPACE).dump1090-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5971587621C9E07F00F3F098 /* Build configuration list for PBXProject "dump1090-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5971588021C9E07F00F3F098 /* Debug */,
+				5971588121C9E07F00F3F098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5971588221C9E07F00F3F098 /* Build configuration list for PBXNativeTarget "dump1090-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5971588321C9E07F00F3F098 /* Debug */,
+				5971588421C9E07F00F3F098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5971587321C9E07F00F3F098 /* Project object */;
+}
