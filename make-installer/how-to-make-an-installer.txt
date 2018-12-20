@@ -2,5 +2,6 @@ Make an archive from Xcode, export the build products. Put the "Products" direct
 
 Set the version number below and run:
 
-pkgbuild --root Products/ --identifier au.com.mtlabs.dump1090-mac --version 1 dump1090-mac.pkg --sign "3rd Party Mac Developer Installer: MAX TECHNOLOGY LABS PTY LTD (5VXZZ2GBMN)"
-productbuild --distribution distribution.plist --resources . --package-path dump1090-mac.pkg dump1090-mac-installer.pkg --sign "3rd Party Mac Developer Installer: MAX TECHNOLOGY LABS PTY LTD (5VXZZ2GBMN)"
+codesign -fs "Developer ID Application: MAX TECHNOLOGY LABS PTY LTD (5VXZZ2GBMN)" Products/usr/local/bin/dump1090-mac
+pkgbuild --root Products/ --identifier au.com.mtlabs.dump1090-mac --version 1 dump1090-mac.pkg --sign "Developer ID Installer: MAX TECHNOLOGY LABS PTY LTD (5VXZZ2GBMN)"
+productbuild --distribution distribution.plist --resources . --package-path dump1090-mac.pkg dump1090-mac-installer.pkg --sign "Developer ID Installer: MAX TECHNOLOGY LABS PTY LTD (5VXZZ2GBMN)"
