@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="1">
+    <pkg-ref id="au.com.mtlabs.dump1090-mac"/>
+	<title>dump1090-mac</title>
+	<license file="LICENSE.txt"/>
+	<readme file="README.txt"/>
+    <options customize="never" require-scripts="false"/>
+    <choices-outline>
+        <line choice="default">
+            <line choice="au.com.mtlabs.dump1090-mac"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="au.com.mtlabs.dump1090-mac" visible="false">
+        <pkg-ref id="au.com.mtlabs.dump1090-mac"/>
+    </choice>
+    <pkg-ref id="au.com.mtlabs.dump1090-mac" version="1" onConclusion="none">dump1090-mac.pkg</pkg-ref>
+</installer-gui-script>
