@@ -9,7 +9,8 @@
 #include "extra.h"
 
 void showLicenses(void) {
-    printf("dump1090-mac - Copyright (c) 2018 Max Technology Labs PTY LTD.\n");
+    printf("dump1090-mac\tversion: 1\tbuild: 1\n");
+    printf("Copyright (c) 2018 Max Technology Labs PTY LTD.\n");
     printf("This software comes with ABSOLUTELY NO WARRANTY.\n");
     printf("This software may use copyright material from the libusb, rtl-sdr and dump1090 projects.\n");
     printf("Run the program with --licenses to view the full terms of these licenses.\n");
